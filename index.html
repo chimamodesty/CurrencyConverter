@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="all">
+    <h1>Currency Converter</h1>
+    <h3>Currency exchange for 20 different countries</h3>
+    <p>These currencies are: USD(USA Dollar), European union(EUR), GBP(Great Britain Pounds), NGN(Nigeria Naira), INR(India Rupee), 
+       JPY(Japanese YEN), CAD(Canadian Dollar), CHF(Swiss Franc), CNY(Chinese Renminbi), GHS(Ghanaian Cedi), HKD(Hong Kong Dollar),
+    KES(Kenyan Shilling), KRW(South Korean Won), NOK(Norwegian Krone), QAR(Qatari Riyal), RUB(Russian Ruble), SAR(Saudi Riyal),
+    ZAR(South African Rand), TWD(New Taiwan Dollar), SEK(Swedish Krona).
+    </p>
+    <h3> Select Currency and enter Amount to convert.</h3>
+    <form>
+       <label>From:</label> 
+       <select id="from"> 
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="NGN">NGN</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CNY">CNY</option>
+          <option value="GHS">GHS</option>
+          <option value="HKD">HKD</option>
+          <option value="KES">KES</option>
+          <option value="KRW">KRW</option>
+          <option value="NOK">NOK</option>
+          <option value="QAR">QAR</option>
+          <option value="RUB">RUB</option>
+          <option value="SAR">SAR</option>
+          <option value="ZAR">ZAR</option>
+          <option value="TWD">TWD</option>
+          <option value="SEK">SEK</option>
+       </select> <br> <br>
+       <label>To:</label> 
+       <select id="to">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="NGN">NGN</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CNY">CNY</option>
+          <option value="GHS">GHS</option>
+          <option value="HKD">HKD</option>
+          <option value="KES">KES</option>
+          <option value="KRW">KRW</option>
+          <option value="NOK">NOK</option>
+          <option value="QAR">QAR</option>
+          <option value="RUB">RUB</option>
+          <option value="SAR">SAR</option>
+          <option value="ZAR">ZAR</option>
+          <option value="TWD">TWD</option>
+          <option value="SEK">SEK</option>
+       </select>
+       
+       Amount: <input type="text" id="amount" /> <br> <br>
+       <button type="button" id="convert">Convert</button>
+       <p id="result"></p>
+    </form>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
