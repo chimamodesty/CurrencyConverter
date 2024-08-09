@@ -5,3 +5,11 @@
     padding: 10px;
     background-color: rgb(232, 240, 240);
     }
+
+    @media (min-width: 600px) {
+        .all {
+            flex-direction: row;
+            gap: 10px;
+        }
+    
+    }
